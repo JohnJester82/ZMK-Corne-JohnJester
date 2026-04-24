@@ -102,6 +102,8 @@
 &kp CAPSLOCK  &kp Z           &kp X           &kp C                   &kp V                 &kp B        &kp C_MUTE              &kp DOWN              &kp N        &kp M              &kp COMMA            &kp DOT         &kp FSLH                 &kp DELETE
                                               &kp LS(F11)             &mo 1                 &lt 3 SPACE                                                &lt 4 ENTER  &mo 2              &kp LS(LC(F12))
             >;
+
+            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {
@@ -142,6 +144,8 @@
 &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &none         &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &none        &none
                                                    &none         &none            &none                                                                           &none            &none            &none
             >;
+
+            sensor-bindings = <&rgb_encoder>;
         };
     };
 };
