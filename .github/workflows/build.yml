@@ -7,8 +7,4 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
-- name: Build ZMK firmware
-  uses: zmkfirmware/zmk-build-github-action@main
-  with:
-    zmk-version: "3.5"
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
